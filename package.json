@@ -1,19 +1,26 @@
 {
   "name": "landingpage",
-  "version": "1.0.0",
-  "description": "Visit the page to contact us",
-  "main": "main",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/useSource/useSource.git"
+  "dependencies": {
+    "@headlessui/react": "^1.4.1",
+    "@heroicons/react": "^1.0.4",
+    "@tailwindcss/forms": "^0.3.4",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "tailwindcss": "^2.2.16"
   },
-  "author": "Adrian Brown, ap.brown011@gmail.com",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/useSource/useSource/issues"
-  },
-  "homepage": "https://github.com/useSource/useSource#readme"
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "postcss": "^8.3.9"
+  }
 }
