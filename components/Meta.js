@@ -10,7 +10,6 @@ export default function Meta() {
             />
             <meta property="og:image" content={ORG_IMAGE_URL} />
             <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
-            <link rel="stylesheet" href="../styles/styles.css" />
         </Head>
     )
 }
