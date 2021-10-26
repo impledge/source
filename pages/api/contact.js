@@ -1,9 +1,9 @@
-import { sendEmail } from '../../utils/sendEmail';
+import { sendEmail } from '../../lib/sendEmail';
 
 export default function handler(req, res) {
     if (req.method === 'POST') {
-        const email = req.body
-        sendEmail({ email });
+        const { name, email } = req.body;
+        sendEmail({ name, email });
         return res.status(200).end();
 
     } else {
