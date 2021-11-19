@@ -1,14 +1,12 @@
 import "tailwindcss/tailwind.css";
-import SafeAreaContainer from '../components/Container';
-import Registry from './registry';
+import Registry from '../components/registry';
+
 
 export default function Home() {
 
 	return (
 		<div>
-			<SafeAreaContainer>
-				<Registry />
-			</SafeAreaContainer>
+			<Registry />
 			{/* meta data -> seo */}
 			{/* header */}
 			{/* body components */}
