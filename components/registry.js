@@ -18,7 +18,7 @@ export default function Home() {
     e.preventDefault();
     const res = await fetch("http://localhost:3000/api/submit-form", {
       method: "POST",
-      body: JSON.stringify({ name, email, purpose, message }),
+      body: JSON.stringify({ name, email, message }),
     });
     // Success if status code is 201
     if (res.status === 201) {
