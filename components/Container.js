@@ -1,6 +1,8 @@
+import styles from '../styles/Home.module.css';
+
 export default function SafeAreaContainer({children}) {
     return (
-        <div className="mx-auto sm:px-6 lg:px-8 specified-container-element">
+        <div className={styles.body_container}>
             {children}
         </div>
     )

@@ -3,16 +3,38 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0093e9;
-  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  background-image: url(../public/contactgradient.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.form {
-  background: white;
-  padding: 2rem 1.5rem;
-  border-radius: 6px;
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
+
+.body_container {
+  margin: 0 auto;
+  min-width: 180px;
 }
+
+@media screen and (min-width: 640px) {
+  .form {
+    background: white;
+    padding: 2rem 1.5rem;
+    border-radius: 6px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    /* max-width: 600px; */
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .form {
+    background: white;
+    padding: 2rem 1.5rem;
+    border-radius: 6px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+  }
+}
+
+
 .form label {
   display: block;
   text-transform: uppercase;
@@ -173,9 +195,84 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 640px) {
+  .header {
+    text-align: left;
+    font-family: sans-serif;
+    white-space: nowrap;
+    background-image: url(../public/layered.svg);
+    height: 120px;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 641px) {
+  .header {
+    text-align: left;
+    font-family: sans-serif;
+    white-space: nowrap;
+    background-image: url(../public/layered.svg);
+    height: 400px;
+    background-size: cover;
+  }
+}
+
+.header_title {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  --tw-text-opacity: 1;
+  color: rgba(17, 24, 39, var(--tw-text-opacity));
+}
+
+@media screen and (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+}
+
+.img_holders {
+  box-sizing: content-box;
+  object-fit:cover;
+  border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .img_grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+    height: 66.666667%;
+    width: 83.333333%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .img_grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+    height: 66.666667%;
+    width: 83.333333%;
+  }
+}
+
+.img_grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  height: 66.666667%;
+  width: 83.333333%;
+}
+
+.stats {
+  position: relative;
+  background-image: url(../public/gradient.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
