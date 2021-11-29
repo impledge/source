@@ -1,9 +1,7 @@
 import "tailwindcss/tailwind.css";
 import styles from "../styles/Home.module.css";
 import Registry from "../components/Registry";
-// import Header from "../components/Header"; delete once integration complete
 import Meta from "../components/Meta";
-// import Modal from "../components/Modal"; delete once integration complete
 import Stats from "../components/Stats";
 import Footer from "../components/Footer";
 import Modal from '../components/landingModal';
