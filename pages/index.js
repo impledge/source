@@ -1,4 +1,5 @@
 import "tailwindcss/tailwind.css";
+import { useState } from "react";
 import styles from "../styles/Home.module.css";
 import Registry from "../components/Registry";
 import Meta from "../components/Meta";
@@ -53,6 +54,7 @@ const navigationFooter = [
 
 export default function Home() {
   //TODO: redo the header to link to the following page
+  // set state here 
 
   return (
     <div>
