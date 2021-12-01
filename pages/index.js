@@ -1,10 +1,9 @@
 import "tailwindcss/tailwind.css";
 import { useState } from "react";
-import styles from "../styles/Home.module.css";
+// import styles from "../styles/Home.module.css";
 import Registry from "../components/Registry";
 import Meta from "../components/Meta";
 import Stats from "../components/Stats";
-import Footer from "../components/Footer";
 import Modal from "../components/landingModal";
 
 const navigationHeader = [
@@ -111,7 +110,7 @@ export default function Home() {
             </div>
           </div>
           <div className="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
-            {navigation.map((link) => (
+            {navigationHeader.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
