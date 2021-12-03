@@ -7,10 +7,9 @@ import Stats from "../components/Stats";
 import Modal from "../components/landingModal";
 
 const navigationHeader = [
-  { name: "Solutions", href: "#" },
-  { name: "Pricing", href: "#" }, // Dont know if to include this in a page or not yet so leaving it alone
-  { name: "Blog", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Documentation", href: "#" },
+  { name: "Github", href: "#" }, 
+  { name: "Services", href: "#" },
 ];
 
 const navigationFooter = [
