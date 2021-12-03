@@ -79,7 +79,7 @@ export default function Example() {
               <div className="flex-1 relative pt-16 px-6 pb-8 md:px-8">
                 <div className="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
                   <link.icon
-                    className="h-6 w-6 text-white"
+                    className="h-6 w-6 text-black"
                     aria-hidden="true"
                   />
                 </div>
