@@ -93,7 +93,7 @@ export default function Example() {
               <div className="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
                 <a
                   href={link.href}
-                  className="text-base font-medium text-indigo-700 hover:text-indigo-600"
+                  className="text-base font-medium text-black hover:text-blue-600"
                 >
                   Contact us<span aria-hidden="true"> &rarr;</span>
                 </a>
