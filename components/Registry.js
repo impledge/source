@@ -16,7 +16,7 @@ export default function Home() {
   // Form submit handler
   const submitForm = async (e) => {
     e.preventDefault();
-    const res = await fetch("https://use-source-iota.vercel.app//api/submit-form", {
+    const res = await fetch("https://usesource.app/api/submit-form", {
       method: "POST",
       body: JSON.stringify({ name, email, message }),
       headers: {'Access-Control-Allow-Origin': '*'}

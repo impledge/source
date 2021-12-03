@@ -32,11 +32,11 @@ export default function Stats() {
     <div className={styles.stats}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
         <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-          <h2 className="text-sm font-semibold text-black tracking-wide uppercase">
+          <h2 className="text-sm font-semibold text-white tracking-wide uppercase">
             Data
           </h2>
-          <p className="mt-3 text-3xl justify-items-center font-extrabold text-black">Solutions</p>
-          <p className="mt-5 text-lg text-black">
+          <p className="mt-3 text-3xl justify-items-center font-extrabold text-white">Solutions</p>
+          <p className="mt-5 text-lg text-white">
             Our solutions are programitically tailored to each problem. The
             overall objective is to build technology that allows for easier
             decision making.
@@ -44,11 +44,11 @@ export default function Stats() {
           <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
             {metrics.map((item) => (
               <p key={item.id}>
-                <span className="block text-2xl font-bold text-black">
+                <span className="block text-2xl font-bold text-white">
                   {item.stat}
                 </span>
-                <span className="mt-1 block text-base text-black">
-                  <span className="font-medium text-black">
+                <span className="mt-1 block text-base text-white">
+                  <span className="font-medium text-white">
                     {item.emphasis}
                   </span>{" "}
                   {item.rest}
