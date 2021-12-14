@@ -47,9 +47,7 @@ export default function Example() {
             <blockquote className="mt-6 text-white">
               <p className="text-xl font-medium sm:text-2xl">
                 Our way forward is through solving workflow inadequacies by
-                leveraging technology. We strive to make meaningful
-                contributions to the lives of those who use our products. The
-                source for your success!
+                leveraging technology.
               </p>
               <footer className="mt-6">
                 <p className="flex flex-col font-medium">
