@@ -1,14 +1,15 @@
 import "tailwindcss/tailwind.css";
-import { useState } from "react";
+// import { useState } from "react";
 // import styles from "../styles/Home.module.css";
 import Registry from "../components/Registry";
 import Meta from "../components/Meta";
 import Stats from "../components/Stats";
 import Modal from "../components/landingModal";
+import Feature from "../components/Feature";
 
 const navigationHeader = [
   { name: "Documentation", href: "#" },
-  { name: "Github", href: "#" }, 
+  { name: "Github", href: "https://github.com/usesource" }, 
   { name: "Services", href: "#" },
 ];
 
@@ -105,13 +106,13 @@ export default function Home() {
             <div className="ml-10 space-x-4">
               <a
                 href="#"
-                className="inline-block bg-black py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75"
+                className="inline-block bg-black py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-green-400"
               >
                 Sign in
               </a>
               <a
                 href="#"
-                className="inline-block bg-green-500 py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-green-400"
+                className="inline-block bg-blue-400 py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-green-400"
               >
                 Sign up
               </a>
@@ -131,6 +132,7 @@ export default function Home() {
         </nav>
       </header>
       <Modal />
+      <Feature />
       <Stats />
       <Registry />
       <footer className="bg-black">

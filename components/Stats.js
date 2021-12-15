@@ -1,60 +1,49 @@
-import styles from "../styles/Home.module.css";
-
-const metrics = [
-  {
-    id: 1,
-    stat: "62%",
-    emphasis: "Companies",
-    rest: " have up to 25% of their business processes modeled, but just 2% of the organizations surveyed have all of their processes modeled.",
-  },
-  {
-    id: 2,
-    stat: "31%",
-    emphasis: "Organizations",
-    rest: "have automated at least one business function",
-  },
-  {
-    id: 3,
-    stat: "43%",
-    emphasis: "Clients",
-    rest: "deem too much paperwork to be the biggest cause of wasted time",
-  },
-  {
-    id: 4,
-    stat: "50M+",
-    emphasis: "Invested",
-    rest: "in big data and AI initiatives in 2020, up from 39.7% in 2018 from within the industry",
-  },
-];
-
+/* This example requires Tailwind CSS v2.0+ */
 export default function Stats() {
   return (
-    <div className={styles.stats}>
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
-        <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-          <h2 className="text-sm font-semibold text-white tracking-wide uppercase">
-            Data
+    <div className="bg-black pt-6 sm:pt-2">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
+            Data the right way
           </h2>
-          <p className="mt-3 text-3xl justify-items-center font-extrabold text-white">Solutions</p>
-          <p className="mt-5 text-lg text-white">
-            Our solutions are programitically tailored to each problem. The
-            overall objective is to build technology that allows for easier
-            decision making.
+          <p className="mt-3 text-xl text-white sm:mt-4">
+            We offer custom backup & recovery plans for your needs. 
           </p>
-          <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
-            {metrics.map((item) => (
-              <p key={item.id}>
-                <span className="block text-2xl font-bold text-white">
-                  {item.stat}
-                </span>
-                <span className="mt-1 block text-base text-white">
-                  <span className="font-medium text-white">
-                    {item.emphasis}
-                  </span>{" "}
-                  {item.rest}
-                </span>
-              </p>
-            ))}
+        </div>
+      </div>
+      <div className="mt-10 pb-24 bg-black sm:pb-40">
+        <div className="relative">
+          <div className="absolute inset-0 h-1/2 bg-black" />
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-4xl mx-auto">
+              <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
+                <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
+                  <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                    Storage
+                  </dt>
+                  <dd className="order-1 text-5xl font-extrabold text-blue-400">
+                    1TB
+                  </dd>
+                </div>
+                <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
+                  <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                    Delivery
+                  </dt>
+                  <dd className="order-1 text-5xl font-extrabold text-blue-400">
+                    12 Mbps
+                  </dd>
+                </div>
+                <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
+                  <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                    Recovery
+                  </dt>
+                  <dd className="order-1 text-5xl font-extrabold text-blue-400">
+                    24/7
+                  </dd>
+                </div>
+              </dl>
+            </div>
           </div>
         </div>
       </div>

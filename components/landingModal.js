@@ -1,6 +1,3 @@
-import Image from "next/image";
-import graph from "../public/graph.jpeg";
-
 import {
   NewspaperIcon,
   UploadIcon,
@@ -17,16 +14,16 @@ const supportLinks = [
   },
   {
     name: "Open Source Initiatives",
-    href: "https://github.com/useSource",
+    href: "#name",
     description:
-      "Source Projects focus is on driving community first solutions. Our objective is to provide a unique developer experience for those looking to contribute to open source projects.",
+      "Review our in-depth documentation on our Data Backup & Recovery Services, open-source projects, and more.",
     icon: SupportIcon,
   },
   {
-    name: "Help Build Community",
+    name: "Helping Build Community",
     href: "#name",
     description:
-      "Are you a developer looking to make an impact? If so then please reach out, we are looking to expand and grow a community of technologist who are passionate about their work.",
+      "We are building a community of technologists. Source Projects focus is on driving community first solutions.",
     icon: NewspaperIcon,
   },
 ];
@@ -47,9 +44,7 @@ export default function Example() {
             <blockquote className="mt-6 text-white">
               <p className="text-xl font-medium sm:text-2xl">
                 Our way forward is through solving workflow inadequacies by
-                leveraging technology. We strive to make meaningful
-                contributions to the lives of those who use our products. The
-                source for your success!
+                leveraging technology.
               </p>
               <footer className="mt-6">
                 <p className="flex flex-col font-medium">
