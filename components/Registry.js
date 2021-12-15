@@ -1,6 +1,6 @@
 // For handling input states
 import { useState } from "react";
-
+import Image from "next/image";
 // For display toasts
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
@@ -33,7 +33,7 @@ export default function Home() {
     <>
       <div className="relative bg-green-400">
         <div className="absolute inset-0">
-          <img
+          <Image
             className="w-full h-full object-cover"
             src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1784&q=80"
             alt=""
