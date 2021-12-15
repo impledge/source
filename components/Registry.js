@@ -48,9 +48,9 @@ export default function Home() {
             Get in touch
           </h1>
           <p className="mt-6 text-xl text-indigo-100 max-w-3xl">
-            If you're looking to build better security around your patient,
-            financial, or business data we're here to help. For developers
-            looking to contribute to open-source projects please don't hesitate
+            If you are looking to build better security around your patient,
+            financial, or business data we are here to help. For developers
+            looking to contribute to open-source projects please dont hesitate
             to reach out as well. We look forward to building a community with
             you!
           </p>

@@ -27,7 +27,7 @@ export default function Feature() {
                   Automate your data backup and recovery protocols. Your data
                   will be available in a highly secure, HIPAA compliant, private
                   and structured cloud-based data server. With automated
-                  consistency, you'll be able to reduce downtime and improve
+                  consistency, you will be able to reduce downtime and improve
                   workflow performance.
                 </p>
                 <div className="mt-6">
