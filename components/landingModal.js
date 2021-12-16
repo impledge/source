@@ -28,7 +28,7 @@ const supportLinks = [
   },
 ];
 
-export default function Example() {
+export default function Modal() {
   return (
     <div className="bg-black">
       {/* Header */}
