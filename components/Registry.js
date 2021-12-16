@@ -1,6 +1,7 @@
 // For handling input states
 import { useState } from "react";
 import Image from "next/image";
+import stockPhoto from "../public/stockPhotoThree.jpeg";
 // For display toasts
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
@@ -31,18 +32,8 @@ export default function Home() {
 
   return (
     <>
-      <div className="relative bg-green-400">
-        <div className="absolute inset-0">
-          <Image
-            className="w-full h-full object-cover"
-            src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1784&q=80"
-            alt=""
-          />
-          <div
-            className="absolute inset-0 bg-blue-500 mix-blend-multiply"
-            aria-hidden="true"
-          />
-        </div>
+      <div className="relative bg-black">
+        
         <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
             Get in touch

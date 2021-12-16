@@ -32,7 +32,7 @@ export default function Feature() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="#name"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-400 hover:bg-green-400"
                   >
                     Get started
@@ -77,7 +77,7 @@ export default function Feature() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="#name"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-400 hover:bg-green-400"
                   >
                     Get started
