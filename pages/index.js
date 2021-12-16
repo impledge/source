@@ -6,7 +6,7 @@ import Meta from "../components/Meta";
 import Stats from "../components/Stats";
 import Modal from "../components/landingModal";
 import Feature from "../components/Feature";
-import Link from "next/link";
+import Header from "../components/Header";
 
 const navigationFooter = [
   {
@@ -47,59 +47,10 @@ const navigationFooter = [
 ];
 
 export default function Home() {
-  //TODO: redo the header to link to the following page
-  // set state here
-
   return (
     <div className="bg-black">
       <Meta />
-      {/* <div className={styles.header}>
-			<div className="max-w-7xl pt-2 mx-auto px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
-				<h2 className={styles.header_title}>
-					<span className="text-white">
-						Source<span className="text-white"> Project</span>
-					</span>
-				</h2>
-			</div>
-		</div> */}
-      <header className="bg-black">
-        <nav
-          className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-          aria-label="Top"
-        >
-          <div className="w-full py-6 flex items-center justify-between border-b border-white lg:border-none">
-            <div className="flex items-center">
-              <Link href="/">
-                <a>
-                  <span className="sr-only">Home</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="white"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-                    />
-                  </svg>
-                </a>
-              </Link>
-            </div>
-            <div className="ml-10 space-x-4">
-              <a
-                href="#"
-                className="inline-block bg-black py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-green-400"
-              >
-                Documentation
-              </a>
-            </div>
-          </div>
-        </nav>
-      </header>
+      <Header />
       <Modal />
       <Feature />
       <Stats />
