@@ -1,35 +1,7 @@
-// // theme.config.js
-// export default {
-//   projectLink: "https://github.com/useSource/", // GitHub link in the navbar
-//   docsRepositoryBase: "https://github.com/useSource/useSource/tree/master/", // base URL for the docs repository
-//   titleSuffix: "- Source Project",
-//   nextLinks: true,
-//   prevLinks: true,
-//   search: true,
-//   customSearch: null, // customizable, you can use algolia for example
-//   darkMode: true,
-//   footer: true,
-//   footerText: `MIT ${new Date().getFullYear()} © useSource, LLC. Source Project.`,
-//   footerEditLink: `Edit this page on GitHub`,
-//   logo: (
-//     <>
-//       <svg>...</svg>
-//       <span>Next.js Static Site Generator</span>
-//     </>
-//   ),
-//   head: (
-//     <>
-//       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-//       <meta name="description" content="@useSource, LLC. The Source Project documentation site" />
-//       <meta name="og:title" content="Source Project, the source for community" />
-//     </>
-//   ),
-// };
-
 export default {
-  github: "https://github.com/shuding/nextra",
-  docsRepositoryBase: "https://github.com/shuding/nextra/blob/master",
-  titleSuffix: " – Nextra",
+  github: 'https://github.com/shuding/nextra',
+  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
+  titleSuffix: ' – Nextra',
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
@@ -89,7 +61,7 @@ export default {
   prevLinks: true,
   nextLinks: true,
   footer: true,
-  footerEditLink: "Edit this page on GitHub",
+  footerEditLink: 'Edit this page on GitHub',
   footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
-  unstable_faviconGlyph: "👋",
-};
+  unstable_faviconGlyph: '👋',
+}
