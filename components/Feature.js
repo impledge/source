@@ -20,9 +20,9 @@ export default function Feature() {
                 </span>
               </div>
               <div className="mt-6">
-                <h2 className="text-3xl font-extrabold tracking-tight text-white">
+                <p className="text-3xl font-extrabold tracking-tight text-white">
                   Highly secure data
-                </h2>
+                </p>
                 <p className="mt-4 text-lg text-white">
                   Automate your data backup and recovery protocols. Your data
                   will be available in a highly secure, HIPAA compliant, private
@@ -65,9 +65,9 @@ export default function Feature() {
                 </span>
               </div>
               <div className="mt-6">
-                <h2 className="text-3xl font-extrabold tracking-tight text-white">
+                <p className="text-3xl font-extrabold tracking-tight text-white">
                   24/7 customer support
-                </h2>
+                </p>
                 <p className="mt-4 text-lg text-white">
                   Source Project extends beyond the bounds of traditional
                   open-source software. Our solutions are programmatically

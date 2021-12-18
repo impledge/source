@@ -1,11 +1,8 @@
-# Landing Page
+# 🪙 Landing Page
 Welcome to source projects community! @useSource
 
-## Contributing
+## 📲 Contributing
+- WIP
 
-
-## What's next
-- Working on the following pages 
-- [ ] company.js
-- [ ] blog.js
-- [ ] solutions.js
+## 👨🏽‍💻 What's next
+- WIP
