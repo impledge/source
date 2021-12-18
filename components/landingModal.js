@@ -35,9 +35,9 @@ export default function Modal() {
       <div className="bg-black">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-base font-semibold text-white tracking-wide uppercase">
+            <p className="text-base font-semibold text-white tracking-wide uppercase">
               WELCOME TO
-            </h2>
+            </p>
             <p className="mt-1 text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
               THE SOURCE PROJECT
             </p>

@@ -4,9 +4,9 @@ export default function Stats() {
     <div className="bg-black pt-6 sm:pt-2">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
+          <p className="text-3xl font-extrabold text-white sm:text-4xl">
             Data the right way
-          </h2>
+          </p>
           <p className="mt-3 text-xl text-white sm:mt-4">
             We offer custom backup & recovery plans for your needs. 
           </p>

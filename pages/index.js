@@ -1,15 +1,19 @@
-import "tailwindcss/tailwind.css";
+// application based imports
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.min.css";
 import { useState } from "react";
+import Head from "next/head";
+import "tailwindcss/tailwind.css";
+
+// curated based imports
 import styles from "../styles/Home.module.css";
 import Footer from "../components/Footer";
 import Stats from "../components/Stats";
 import Modal from "../components/landingModal";
 import Feature from "../components/Feature";
 import Header from "../components/Header";
-import Head from "next/head";
 import { NAME, ORG_IMAGE_URL } from "../lib/constants";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.min.css";
+
 
 
 export default function Home() {

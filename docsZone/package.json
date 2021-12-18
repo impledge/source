@@ -1,13 +1,18 @@
 {
-  "name": "landingpage",
-  "version": "0.1.0",
-  "private": true,
+  "name": "documentation_page",
+  "version": "1.0.0",
+  "description": "This is the documentation zone for source project landing page",
+  "main": "next.config.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "test": "npm mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/useSource"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.1",
@@ -31,5 +36,7 @@
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "postcss": "^8.3.9"
-  }
+  },
+  "author": "Adrian Brown @cloudguruab",
+  "license": "MIT"
 }
