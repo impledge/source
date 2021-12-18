@@ -30,7 +30,7 @@ export default function Header() {
           <div className="ml-10 space-x-4">
             <Link href="/docs">
               <a
-                href="#"
+                href="/docs"
                 className="inline-block bg-black py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-green-400"
               >
                 Documentation
