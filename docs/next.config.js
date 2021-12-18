@@ -5,19 +5,20 @@ const withNextra = require('nextra')({
   themeConfig: './theme.config.js',
   unstable_staticImage: true,
 })
+module.exports = withNextra()
 
-module.exports = [
-  withNextra(),
-  {
-    basePath: '/docs',
-    async rewrites() {
-      return [
-        {
-          source: '/:path*',
-          destination: `${BLOG_URL}/:path*`,
-          basePath: true,
-        },
-      ]
-    },
-  },
-]
+// module.exports = [
+//   withNextra(),
+//   {
+//     basePath: '/docs',
+//     async rewrites() {
+//       return [
+//         {
+//           source: '/:path*',
+//           destination: `${BLOG_URL}/:path*`,
+//           basePath: true,
+//         },
+//       ]
+//     },
+//   },
+// ]

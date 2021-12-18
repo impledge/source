@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "start": "next start -p 3001",
+    "port:view": "next start -p 3001",
+    "start": "next start",
     "build": "next build"
   },
   "author": "Shu Ding",
