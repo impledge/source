@@ -28,9 +28,9 @@ export default function Header() {
             </Link>
           </div>
           <div className="ml-10 space-x-4">
-            <Link href="/docs">
+            <Link href="#">
               <a
-                href="#"
+                href=""
                 className="inline-block bg-black py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-green-400"
               >
                 Documentation

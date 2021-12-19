@@ -1,7 +1,8 @@
 {
-  "index": "Introduction",
-  "get-started": "Get Started",
-  "features": "Features",
-  "themes": "Themes",
-  "advanced": "Advanced"
+  "index": "🧿 Overview",
+  "data-backup": "💻 Data Backup & Recovery",
+  "cbs": "🥷 Chain Based Signatures (CBS)",
+  "Ginop": "🧪 Ginop",
+  "projects": "🚀 Projects (Coming soon...)",
+  "community": "🛰️ Community"
 }
