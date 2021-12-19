@@ -1,8 +1,9 @@
 {
-  "index": "🧿 Overview",
-  "data-backup": "💻 Data Backup & Recovery",
-  "cbs": "🥷 Chain Based Signatures (CBS)",
-  "Ginop": "🧪 Ginop",
-  "projects": "🚀 Projects (Coming soon...)",
-  "community": "🛰️ Community"
+  "index": "Overview",
+  "data-backup": "Data Backup & Recovery",
+  "cbs": "Chain Based Signatures (CBS)",
+  "Ginop": "Ginop",
+  "pyCheck": "SourceCRC",
+  "sourceORM": "SourceORM",
+  "community": "Community"
 }
