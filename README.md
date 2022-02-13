@@ -1,8 +1,5 @@
-# 🪙 Landing Page
-Welcome to source projects community! @useSource
+# Source Documentation
 
-## 📲 Contributing
-- WIP
+Here you will find all you need to get started with our projects.
 
-## 👨🏽‍💻 What's next
-- WIP
+
